@@ -2,7 +2,7 @@ public class BowlingGame {
 
     public int getBowlingScore(String bowlingCode) {
 		int sum = 0;
-		if(bowlingCode.substring(s.length()-2).equals("||")){
+		if(bowlingCode.substring(bowlingCode.length()-2).equals("||")){
 			bowlingCode +="0";
 		}
 		String[] se = bowlingCode.split("\\|\\|");
